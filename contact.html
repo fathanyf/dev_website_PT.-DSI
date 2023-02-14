@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
+    <link rel="icon" type="image/x-icon" href="./foto/logodsipng.png">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
     <meta name="description" content="PT Data Service Indonesia">
@@ -24,12 +25,12 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#home">F<span>yF.</span></a></div>
+            <div class="logo"><a href="index.html"><img src="./foto/logodsipng.png" style="height:30px;"></a></div>
             <ul class="menu">
                 <li><a href="index.html" class="menu-btn">Home</a></li>
                 <li><a href="products.html" class="menu-btn">Products & Services</a></li>
                 <li><a href="contact.html" class="menu-btn">Contact</a></li>
-                <li><a href="#" class="menu-btn">ID</a></li>
+                <li><a href="contact-id.html" class="menu-btn">ID</a></li>
             </ul>
                 <div class="menu-btn">
                     <i class="fas fa-bars"></i>
@@ -58,25 +59,49 @@
 
 
     <!-- skill section start -->
-    <!-- <section class="skills" id="skills">
+    <section class="skills" id="skills">
         <div class="max-width">
             <div class="skills-content">
-                <div class="column right">
-                    <div class="text">PT. Data Services Indonesia</div>
-                    <ul style="list-style-type:none;">
-                        <li>Address: <br>
-                            Ranuza Building, 3rd Floor <br>
-                            Jl. Timor No. 10, Menteng - Jakarta 10350</li>
-                        <li>Telephone: <br>
-                            +62-21-315 3404</li>
-                        <li>Email: <br>
-                            data.services.indonesia@gmail.com
-                        </li>
-                    </ul>
-                </div>
+                
+                <div class="wrapper">
+                    <header>Send us a Message</header>
+                    <form action="https://formspree.io/f/mknajkow" method="POST" >
+                        <!-- <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://dev-website-pt-dsi.vercel.app/contact.html"> -->
+                      <div class="dbl-field">
+                        <div class="field">
+                          <input type="text" name="name" placeholder="Enter your name" required>
+                          <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                          <input type="text" name="email" placeholder="Enter your email" required>
+                          <i class='fas fa-envelope'></i>
+                        </div>
+                      </div>
+                      <div class="dbl-field">
+                        <div class="field">
+                          <input type="text" name="phone" placeholder="Enter your phone" required>
+                          <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="field">
+                          <input type="text" name="website" placeholder="Enter your website (optional)">
+                          <i class='fas fa-globe'></i>
+                        </div>
+                      </div>
+                      <div class="message">
+                        <textarea placeholder="Write your message" name="message" required></textarea>
+                        <!-- <i class="material-icons">message</i> -->
+                      </div>
+                      <div class="button-area">
+                        <button type="submit">Send Message</button>
+                        <span></span>
+                      </div>
+                    </form>
+                  </div>
+
             </div>
         </div>
-    </section> -->
+    </section>
     
     <!-- footer section start -->
     <footer>

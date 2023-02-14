@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;600&family=Poppins:wght@200;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;600&family=Poppins:wght@200;500&display=swap'); */
 
 
 *{
@@ -15,7 +15,13 @@ html{
     padding: 0 80px;
     margin: auto;
 }
-/* navbar styling */
+
+.column {
+    text-align: justify;
+} 
+.about .column{
+    margin-top: -8%;
+}
 .navbar{
     position: fixed;
     width: 100%;
@@ -96,6 +102,10 @@ html{
     bottom: 30px;
     opacity: 1;
     pointer-events: auto;
+}
+
+.list-comitment{
+    margin-left: 4%;
 }
 
 /* home section styling */
@@ -196,7 +206,7 @@ section .title::after{
 }
 /* about section styling */
 section{
-    padding: 100px 0;
+    padding: 10px 0;
 }
 /* .about .title::after{
     content: "who i am";
@@ -207,7 +217,7 @@ section{
 .about .about-content .left img{
     height: 400px;
     width: 400px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 6px;
 }
 .about .about-content .right{
@@ -607,6 +617,10 @@ footer span a:hover{
     .skills .skills-content .column,
     .porto .skills-content .column{
         width: 100%;
+    }
+    .about .about-content .left img{
+        height: 200px;
+        width: 200px;
     }
 }
 @media (max-width: 500px) {

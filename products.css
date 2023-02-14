@@ -15,6 +15,9 @@ html{
     padding: 0 80px;
     margin: auto;
 }
+.column {
+    text-align: justify;
+} 
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -196,7 +199,7 @@ section .title::after{
 }
 /* about section styling */
 section{
-    padding: 100px 0;
+    padding: 10px 0;
 }
 /* .about .title::after{
     content: "who i am";
@@ -307,6 +310,8 @@ section{
 .skills-content .right .js::before{
     width: 90%;
 }
+
+
 
 
 /* skill section styling */
@@ -567,7 +572,7 @@ section{
   .description{
     font-size: 14px;
     color: #707070;
-    text-align: center;
+    text-align: left;
   }
   .button{
     border: none;
@@ -607,6 +612,58 @@ section{
   }
   .swiper-pagination-bullet-active{
     background-color: #4070F4;
+  }
+
+.desc-title{
+    text-align: center;
+}
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: justify;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 1% 6px;
+    float: left;
+    width: 50%;
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
 /* footer section styling */
