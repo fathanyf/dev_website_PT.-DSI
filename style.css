@@ -622,6 +622,10 @@ footer span a:hover{
         height: 175px;
         width: 175px;
     }
+    .about .about-content .column .left{
+        padding-top: -20%;
+    }
+
 }
 @media (max-width: 500px) {
     .home .home-content{
