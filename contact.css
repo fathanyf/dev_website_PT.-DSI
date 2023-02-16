@@ -511,6 +511,8 @@ section{
     font-weight: 600;
     padding: 20px 30px;
     border-bottom: 1px solid #ccc;
+    text-align: center;
+    
   }
   .wrapper form{
     margin: 35px 30px;

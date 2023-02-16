@@ -107,6 +107,10 @@ html{
 .list-comitment{
     margin-left: 4%;
 }
+.list-activities{
+    margin-left: 0%;
+    list-style: none;
+}
 
 /* home section styling */
 .home{
@@ -455,6 +459,7 @@ section{
 } */
 .contact .contact-content .column{
     width: calc(50% - 30px);
+
 }
 .contact .contact-content .text{
     font-size: 20px;
