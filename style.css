@@ -118,7 +118,7 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://images.pexels.com/photos/6770610/pexels-photo-6770610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat center;
+    background: url("foto/homebg.jpggit") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
